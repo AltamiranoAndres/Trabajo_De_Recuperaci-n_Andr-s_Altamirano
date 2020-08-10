@@ -1,22 +1,26 @@
 # Informe
 
 1. PLANTEAMIENTO DEL PROBLEMA
+
 Este trabajo se realiza para ofrecer una perspectiva de programación orientada a  la plataforma arduino mediante una plataforma auxiliar llamada visuino, se detalla la explicación del funcionamiento de componentes dentro de la plataforma, para  la realización de diversos proyectos que tengan como componente un  Display de Cristal Líquido (LCD) que es una pantalla  capaz de mostrar datos de variables, ó datos fijos.
 
 
 2. OBJETIVOS
   GENERAL
+  
   Explicar el funcionamiento de una pantalla  LCD de 16x2 en la plataforma visuino
 
 
   
   
   ESPECÍFICOS
+  
 -Demostrar cómo se pueden imprimir datos de sensores en pantallas LCD de 16x2 a través del uso de la plataforma visuino
 --Explicar el modo de empleo de visuino y la aplicación de sus respectivas librerías para compilar el código programado
 -Explicar el procedimiento para vincular la pantalla LCD con un sensor de ultrasonido  HC-SR04    
      
 3. MARCO TEÓRICO
+
 Dentro del desarrollo de la programación de arduino existen diversas applets que sirven como complemento ó como una guia para poder generar códigos complicados a través de procedimientos sencillos fundamentados en programación por bloques. En este caso Visuino es una plataforma que sirve para implementar códigos de arduino  utilizando un lenguaje gráfico intuitivo.
 
 El modo de operación de visuino es sencillo , ya que se basa en arrastrar y soltar elementos hacia el área de trabajo, cada bloque posee una descripción de sus entradas, por lo que se pueden hacer diversas confuguraciones y acceder a diferentes menús que proporcionan información que puede modificarse. Es importante señalar que el software es compatible con diversos dispositivos de hardware, tanto genéricos como originales.
