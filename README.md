@@ -40,7 +40,11 @@ Partiendo de este punto es imprescindible mencionar la gama de diversos disposit
 
 -Software Thinkercad
 
--Listado de componentes dentro del software:
+-Listado de componentes dentro del software
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG)
+
+*Figura 2 Lista de componentes obtenida de tinkercad*
 
 6. Mapa de Variables 
 
