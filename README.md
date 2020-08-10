@@ -32,9 +32,9 @@ Partiendo de este punto es imprescindible mencionar la gama de diversos disposit
 
 
 
-4. DIAGRAMA
-
-
+4.**Diagrama**
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG)
+*Figura 1 Esquema de conexiones del circuito arado en la plataforma tinkercad*
 
 5. Lista de componentes
 
