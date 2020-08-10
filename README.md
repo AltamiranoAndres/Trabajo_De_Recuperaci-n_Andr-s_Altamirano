@@ -1,4 +1,5 @@
 # Informe
+Andrés Altamirano
 
 1. PLANTEAMIENTO DEL PROBLEMA
 
