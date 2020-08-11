@@ -350,6 +350,10 @@ Luego símplemente debemos seleccionar nuestra librería ZIP.
 
 11. CRONOGRAMA
 
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello1.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello1.JPG)
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello2.JPG)
+
 
 
 
