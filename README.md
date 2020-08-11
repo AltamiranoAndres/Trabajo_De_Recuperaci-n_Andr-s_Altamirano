@@ -41,12 +41,17 @@ y luego se selecciona una opción
 
 La selección de uno de estos hipervínculos generará una descarga
 
-![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG[(https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG)
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG)
+
 
 Por consiguiente  tendremos que descomprimir el archivo
+
+
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Descompresion_archivo.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Descompresion_archivo.JPG)
 
+
 Iniciamos el ejecutable y aceptamos los términos y condiciones, finalmente podremos instal el archivo
+
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Acepta_Licencia.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Acepta_Licencia.JPG)
 
