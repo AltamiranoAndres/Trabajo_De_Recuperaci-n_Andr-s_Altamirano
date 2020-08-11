@@ -17,8 +17,10 @@ Este trabajo se realiza para ofrecer una perspectiva de programación orientada 
   
   ESPECÍFICOS
   
--Demostrar cómo se pueden imprimir datos de sensores en pantallas LCD de 16x2 a través del uso de la plataforma visuino
---Explicar el modo de empleo de visuino y la aplicación de sus respectivas librerías para compilar el código programado
+-Demostrar cómo se pueden imprimir datos de sensores en pantallas LCD de 16x2 a través del uso de la plataforma 
+
+--Explicar el modo de empleo de visuino y la aplicación de sus respectivas librerías para compilar el código 
+
 -Explicar el procedimiento para vincular la pantalla LCD con un sensor de ultrasonido  HC-SR04    
      
 3. **MARCO TEÓRICO**
@@ -302,14 +304,14 @@ Una vez realizado esto procedemos a realizar la carga del programa al software d
 Al momento de hacer esto símplemente debemos darle a subir el programa a nuestra tarjeta y el proceso estará finalizado.
 
 
-7. ANÁLISIS DE RESULTADOS
+7.**ANÁLISIS DE RESULTADOS**
 
 Dentro del análisis de resultados, en cuanto a los dispositivos se puede acotar que su eficacia depende de las pulsaciones que se emitan , ya que podrán tomar mayor cantidad de medidas een intervalos de tiempo cortos, lo que otorgará cierta exactitud, pero asímismo basante ruido y difuminación en la medida, el sensor es asequible y confiable, por lo que las medidas no difieren mucho entre intervalos de tiempo.
 
 Es también menester recalcar la versatilidad del software al momento de interaccionar con los operadores booleanos ya que simplifica bastante el trabajo.
 
 
-8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+8. **DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN**
 
 Para la correcta compilación del programa es muy importante tener en cuenta que se requieren librerías qu no necesariamente vienen incluidas en visuino, es por ello que mediante la búsqueda en foros es posible halla las librerías .Mitov requeridas en el desarrollo de la programación.
 
@@ -348,7 +350,7 @@ Luego símplemente debemos seleccionar nuestra librería ZIP.
 
 
 
-11. CRONOGRAMA
+11. **CRONOGRAMA**
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello1.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Crono_trello1.JPG)
 
@@ -357,7 +359,7 @@ Luego símplemente debemos seleccionar nuestra librería ZIP.
 
 
 
-12. BIBLIOGRAFÍA
+12. **BIBLIOGRAFÍA**
 
 -https://www.youtube.com/watch?v=u93nrGvITxI&fbclid=
 
