@@ -226,6 +226,7 @@ Para el otro Textfield bastará con no modificar nada en "initial value" puesto 
 5. Lista de componentes
 
 -Software Thinkercad
+
 -Software Visuino
 
 -Listado de componentes dentro del software
@@ -260,7 +261,6 @@ Luego de realizar la conexión que define los rangos de distancia, procederemos 
 
 Estos operadores Booleanos podemos hallarlos poniendo la palabra "gate" en el menú, por medio de ello estableceremos las condiciones como se indica en la figura. Leyéndolo de corrido se podría interpretar de la siguiente manera
 
-![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.1.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.1.JPG)
 
 Si el rango es mayor a 30 cm se encenderá un led, caso contrario, se encenderá el segundo led, que comprende al segundo rango de 15 cm hasta 30 cm. Bastará con repetir este proceso una vez más para el último led.
 
@@ -284,8 +284,7 @@ Al momento de arrastrar y pegar el componente debemos tener algo así, que por l
 Una vez realizada esta conexión, procedemos a hacer la vinculación de nuestro sensor de ultrasonido con la  herramienta "analog snapshot" que nos proporciona una traducción de los datos analógicos a datos digitales, lo que permite a la pantalla realizar la lectura de los mismos, a su vez, debemos utilizar "pulse generator" con el fin de mesurar la frecuencia en la que se tomarán los datos 
 
 
-![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD1.2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD1.2.JPG)
-
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD11.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD11.JPG)
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD.JPG)
 
