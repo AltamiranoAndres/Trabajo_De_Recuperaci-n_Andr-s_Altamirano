@@ -62,7 +62,8 @@ Duración mínima del pulso de disparo TRIG (nivel TTL): 10 μS
 Duración del pulso ECO de salida (nivel TTL): 100-25000 μS
 Dimensiones: 45mm x 20mm x 15mm
 Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable 50ms)
-*Datos técnicos tomados de: https://naylampmechatronics.com/sensores-proximidad/10-sensor-ultrasonido-hc-sr04.html
+
+*Datos técnicos tomados de: https://naylampmechatronics.com/sensores-proximidad/10-sensor-ultrasonido-hc-sr04.html*
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Componente_ultrasonico.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Componente_ultrasonico.JPG)
 *Figura 3 Descripción de los pines de un sensor ultrasónico, tomado de https://cdmxelectronica.com/producto/sensor-ultrasonico-hc-sr04/*
@@ -75,17 +76,31 @@ La pantalla LCD con su acrónimo en inglés (Liquid Crystal Dysplay) es un compo
 *Figura 4 distribución de pines en una pantalla LCD obtenido de  http://todoelectrodo.blogspot.com/2013/02/lcd-16x2.html*
 
 Donde se pueden apreciar claramente los  pines de alimentación
-Vss= Tierra
+
+Vss=Tierra
+
 Vdd= 5 [V]
+
 Vcc =Control del contraste, generalmente conectado a una resistencia variable de 10kohms
+
 Pines de control
+
 RS= Es el pin que hace el registro y selección de datos
+
 RW= Pin que permite leer o escribir un dato desde la pantalla
+
+E= es el pin llamado enabled, el cual habilita la activación de la LCD para la activación de datos
+
+Pines de Bus de datos
+
+Son los pines que se utilizan para la transferencia de datos, siendo escnciales los pins D4 hasta el D7.
+
 
 
 4.**DIAGRAMA**
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG)
+
 *Figura 1 Esquema de conexiones del circuito arado en la plataforma tinkercad*
 
 5. Lista de componentes
