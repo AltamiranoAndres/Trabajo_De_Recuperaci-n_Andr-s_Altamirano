@@ -38,14 +38,16 @@ Primero nos enfocaremos en lo más sencillo, los diodos LED, cuyo acrónimo en i
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led.JPG)
 *Figura 2 Diodo led en tinkercad*
 
+**Sensor de ultrasonido HC-SR04**
+
 Por consiguiente nos enfocaremos en el sensor de ultrasonido HC-SR04. El cual puede definirse como un sensor de ultrasonido  que es usualment utilizado para mesurar distancias, cuyo funcionamiento, como su nombre lo indica, se basa en ultrasonido, mesurando distancias mediante la relación entre la frecuencia de los pulsos que emite en conjunto con la velocidad del sonido, de esta manera, puede medir distancias con bastante eficacia y a un precio .
 
 Para la realización del proyecto es necesario saber que se deben conocer las funciones de cada pin, así que se pueden definir de la siguiente manera:
 
 Vcc= pin de suministro de energía de 5 [V]
 Gnd= pin de tierra
-Echo= pin de recepción de datos
-Trig= pin encargado de ordenar la emisión de pulsos
+Echo= pin de recepción del ultrasonido
+Trig= pin de emisión del ultrasonido
 
 Existen algunas especificaciones técnicas que son important y se deben considerar.
 
@@ -65,6 +67,20 @@ Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Componente_ultrasonico.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Componente_ultrasonico.JPG)
 *Figura 3 Descripción de los pines de un sensor ultrasónico, tomado de https://cdmxelectronica.com/producto/sensor-ultrasonico-hc-sr04/*
 
+**Pantalla LCD 16x2**
+
+La pantalla LCD con su acrónimo en inglés (Liquid Crystal Dysplay) es un componente electrónico que tiene como funcionalidad otorgar datos a través de su pantalla, sean estos números, letras, símbolos o caracteres de diversa índole, se caracteriza por ser capaz de distribuir en su pantalla información en celdas dispuestas en una matríz de 16x2 como lo indica su nombre. Su distrubución de pines es la siguiente:
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Distribucion_de_pines_LCD.jpg](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Distribucion_de_pines_LCD.jpg)
+*Figura 4 distribución de pines en una pantalla LCD obtenido de  http://todoelectrodo.blogspot.com/2013/02/lcd-16x2.html*
+
+Donde se pueden apreciar claramente los  pines de alimentación
+Vss= Tierra
+Vdd= 5 [V]
+Vcc =Control del contraste, generalmente conectado a una resistencia variable de 10kohms
+Pines de control
+RS= Es el pin que hace el registro y selección de datos
+RW= Pin que permite leer o escribir un dato desde la pantalla
 
 
 4.**DIAGRAMA**
@@ -103,7 +119,7 @@ Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable
 9. **CONCLUSIONES**
 
 -Se puede concluir que el software visuino provee al usuario de diversas facilidades al momento de realizar la programación de una placa, gracias a que resulta intuitivo, por lo que se pueden realizar códigos de manera más rápida y eficiente, si es que se carece de conocimientos de programación
--
+
 
 
 
