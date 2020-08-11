@@ -29,6 +29,29 @@ El modo de operación de visuino es sencillo , ya que se basa en arrastrar y sol
 
 Para la descarga del software se puede ingresar a la siguiente página web:
 
+https://www.visuino.com/
+
+Se procede al sitio de descargas
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Visuino_Descargas.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Visuino_Descargas.JPG)
+
+y luego se selecciona una opción
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Visuino_opciones_de_descarga.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Visuino_opciones_de_descarga.JPG)
+
+La selección de uno de estos hipervínculos generará una descarga
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG[(https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Zip_visuino.JPG)
+
+Por consiguiente  tendremos que descomprimir el archivo
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Descompresion_archivo.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Descompresion_archivo.JPG)
+
+Iniciamos el ejecutable y aceptamos los términos y condiciones, finalmente podremos instal el archivo
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Acepta_Licencia.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Acepta_Licencia.JPG)
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Inst_final.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Inst_final.JPG)
+
 
 
 **Distribución de pines en los componentes**
