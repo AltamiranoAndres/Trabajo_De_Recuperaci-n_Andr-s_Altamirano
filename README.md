@@ -295,16 +295,30 @@ Anteriormente se habían creado dos elementos en la pantalla LCD, con el fin de 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD2.JPG)
 
 
+Una vez realizado esto procedemos a realizar la carga del programa al software de arduino, siempre y cuando se cumplan con los requisitos previos
 
-7. ANÁLISIS DE RESULTADOS 
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/btn_arduino.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/btn_arduino.JPG)
+
+Al momento de hacer esto símplemente debemos darle a subir el programa a nuestra tarjeta y el proceso estará finalizado.
 
 
+7. ANÁLISIS DE RESULTADOS
 
+Dentro del análisis de resultados, en cuanto a los dispositivos se puede acotar que su eficacia depende de las pulsaciones que se emitan , ya que podrán tomar mayor cantidad de medidas een intervalos de tiempo cortos, lo que otorgará cierta exactitud, pero asímismo basante ruido y difuminación en la medida, el sensor es asequible y confiable, por lo que las medidas no difieren mucho entre intervalos de tiempo.
+
+Es también menester recalcar la versatilidad del software al momento de interaccionar con los operadores booleanos ya que simplifica bastante el trabajo.
 
 
 8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
+Para la correcta compilación del programa es muy importante tener en cuenta que se requieren librerías qu no necesariamente vienen incluidas en visuino, es por ello que mediante la búsqueda en foros es posible halla las librerías .Mitov requeridas en el desarrollo de la programación.
 
+Para instalarlas solo basta con descargarlas, e instalarlas desde el software de Arduino.
+Nos dirigimos a Programa -> Incluir librería -> Añadir biblioteca ZIP
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Instalacion_librerias.jpg](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Instalacion_librerias.jpg)
+
+Luego símplemente debemos seleccionar nuestra librería ZIP.
 
 
 
