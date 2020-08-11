@@ -215,21 +215,81 @@ Para el otro Textfield bastará con no modificar nada en "initial value" puesto 
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG)
 
-*Figura 5 Esquema de conexiones del circuito arado en la plataforma tinkercad*
+*Figura 5 Esquema de conexiones del circuito realizado en la plataforma tinkercad*
+
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/C%C3%B3digo%20Fuente/C%C3%B3digo_Bloques.jpg](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/C%C3%B3digo%20Fuente/C%C3%B3digo_Bloques.jpg)
+
+*Figura 6 Código funte en bloques*
+
 
 5. Lista de componentes
 
 -Software Thinkercad
+-Software Visuino
 
 -Listado de componentes dentro del software
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG)
 
-*Figura 6 Lista de componentes obtenida de tinkercad*
-
-6. Mapa de Variables 
+*Figura 7 lista de componentes obtenida de tinkercad
 
 
+6. Explicación de la Estructura de bloques
+
+La estructura de bloques se basa en las conexiones que se realizan por medio de arrastrar y pegar elementos en nuestro entorno de trabajo, por comodidad es preferible separar al armado del circuito en dos partes. Siendo la primera el circuito conformado por los leds y el sensor de ultrasonido, y la segunda, la explicación de la vinculación de la pantalla LCD con el sensor ultrasónico
+
+**Parte 1**
+
+Para esta primera parte, debemos vincular nuestra tarjeta arduino con nuestro sensor de ultrasonido, haciendo las conexiones en los pines tal como se ha realizado en tinkercad.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido.JPG)
+
+Haremos uso de la herramienta "ping average" para poder dictaminar la frecuencia de las pulsaciones de ultrasonido
+
+Consecuentemente utilizaremos la herramienta "Compare Analog Value" que nos permite extablecer rangos con condiciones. En este caso resultan de utilidad para dictaminar el color del led que va a prenderse.
+En la primera casilla, pondremos en la comparación ctBigger, que no es más que condicionar a nuestro valor a realizar una acción cuando tenemos un dato superior a 15 en este caso.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.JPG)
+
+Estableceremos los rangos como Rg1 para 30 cm Rg2 para 15 cm y Rg 3 para 0 cm.
+
+Luego de realizar la conexión que define los rangos de distancia, procederemos a establcer condiciones para poder diferenciarlos, y que de esta manera tengan un rango de respuestas booleanas, es decir, que muestren diferentes respuestas dependiendo de los datos que recolecten, en este caso, hemos dispuesto que cada intervalo está definido por números superiores a los dispuestos. Por ejemplo, todos los números mayores a 3 cm serán un conjunto de soluciones, mientras que los que se encuentren inferiores a treinta pero superiores a quince tendrán otro rango, lo mismo con los números comprendidos del cero al quince.
+
+! [https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.1.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido2.1.JPG)
+
+Estos operadores Booleanos podemos hallarlos poniendo la palabra "gate" en el menú, por medio de ello estableceremos las condiciones como se indica en la figura. Leyéndolo de corrido se podría interpretar de la siguiente manera.
+
+Si el rango es mayor a 30 cm se encenderá un led, caso contrario, se encenderá el segundo led, que comprende al segundo rango de 15 cm hasta 30 cm. Bastará con repetir este proceso una vez más para el último led.
+
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido3.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido3.JPG)
+
+Finalmente lo único que tendremos que hacer será realizar la conexión de cada led, a los pines de nuestro arduino, como se indica en el diagrama de tinkercad y en el de bloques.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido4.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Conexion_sensor_ultrasonido4.JPG)
+
+Con esto tendríamos finalizada la primera parte de nuestra conexión.
+
+**Parte 2**
+
+Para la conexión de la pantalla LCD, tendremos que disponer en nuestro menú de componentes de la que posee las características de 16x2.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD.JPG)
+
+Al momento de arrastrar y pegar el componente debemos tener algo así, que por lo que se percibe a simple vista posee la misma nauraleza que la pantalla física, por lo que su conexión es más sencilla. Así que se debe proceder a conectar como se ha dispuesto en los diagramas de tinkercad y el código fuente.
+
+Una vez realizada esta conexión, procedemos a hacer la vinculación de nuestro sensor de ultrasonido con la  herramienta "analog snapshot" que nos proporciona una traducción de los datos analógicos a datos digitales, lo que permite a la pantalla realizar la lectura de los mismos, a su vez, debemos utilizar "pulse generator" con el fin de mesurar la frecuencia en la que se tomarán los datos 
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD1.2.JPG[(https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD1.2.JPG)
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD.JPG)
+
+lógicamente todos los datos que colecte nuestro snapshot tendremos que vincularlos con la pantalla LCD, y es aquí cuando recurrimos a lo explicado en el marco teórico
+
+Anteriormente se habían creado dos elementos en la pantalla LCD, con el fin de darle un nombree al primero, y al segundo text field darle los valores que perciba el sensor de ultrasonido, respectivamente, haremos las conexiones de la siguiente manera
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Programacion_pantalla_LCD2.JPG)
 
 
 
