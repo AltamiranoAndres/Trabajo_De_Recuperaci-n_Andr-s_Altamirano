@@ -326,6 +326,10 @@ Luego símplemente debemos seleccionar nuestra librería ZIP.
 
 -Se puede concluir que el software visuino provee al usuario de diversas facilidades al momento de realizar la programación de una placa, gracias a que resulta intuitivo, por lo que se pueden realizar códigos de manera más rápida y eficiente, si es que se carece de conocimientos de programación
 
+-Visuino es una plataforma versatil que permite la interaccion de diversos dispositivos electrónicos de una manera dinámica que resulta amigable ccon el usuario, por lo que es recomendable aplicarla si es que se desconoce el lenguaje de programación de arduino
+
+-Visuino  carece de componentes escenciales en su versión gratuita, por lo que tarde o temprano dependiendo de las necesidades del usuario, tiene a volverse una plataforma de pago
+
 
 
 
@@ -347,7 +351,10 @@ Luego símplemente debemos seleccionar nuestra librería ZIP.
 11. CRONOGRAMA
 
 
+
+
 12. BIBLIOGRAFÍA
+
 -https://www.youtube.com/watch?v=u93nrGvITxI&fbclid=
 
 -http://robopapa.com/Coding/
