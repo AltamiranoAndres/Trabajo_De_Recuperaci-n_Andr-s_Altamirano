@@ -73,6 +73,7 @@ Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable
 La pantalla LCD con su acrónimo en inglés (Liquid Crystal Dysplay) es un componente electrónico que tiene como funcionalidad otorgar datos a través de su pantalla, sean estos números, letras, símbolos o caracteres de diversa índole, se caracteriza por ser capaz de distribuir en su pantalla información en celdas dispuestas en una matríz de 16x2 como lo indica su nombre. Su distrubución de pines es la siguiente:
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Distribucion_de_pines_LCD.jpg](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Distribucion_de_pines_LCD.jpg)
+
 *Figura 4 distribución de pines en una pantalla LCD obtenido de  http://todoelectrodo.blogspot.com/2013/02/lcd-16x2.html*
 
 Donde se pueden apreciar claramente los  pines de alimentación
@@ -94,6 +95,7 @@ E= es el pin llamado enabled, el cual habilita la activación de la LCD para la 
 Pines de Bus de datos
 
 Son los pines que se utilizan para la transferencia de datos, siendo escnciales los pins D4 hasta el D7.
+
 
 
 
