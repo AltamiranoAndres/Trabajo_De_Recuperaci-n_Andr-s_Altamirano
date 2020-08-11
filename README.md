@@ -36,6 +36,8 @@ La definición de pin, nace de la palabra "clavija" traducida del inglés, y se 
 Primero nos enfocaremos en lo más sencillo, los diodos LED, cuyo acrónimo en inglés significa "Light Emitting Diode", no son más que diodos capaces de emitir diferentes  colores electroluminiscentes, que varían dependiendo el material semiconductor del que estén elaborados, están conformados por un par de pines denominados ánodo y cátodo, siendo este último el más corto. Cabe recalcar que su rango de tolerancia al voltaje va a de los 1.8 -3.8 [V]
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led.JPG)
+
+
 *Figura 2 Diodo led en tinkercad*
 
 **Sensor de ultrasonido HC-SR04**
