@@ -27,7 +27,9 @@ Dentro del desarrollo de la programación de arduino existen diversas applets qu
 
 El modo de operación de visuino es sencillo , ya que se basa en arrastrar y soltar elementos hacia el área de trabajo, cada bloque posee una descripción de sus entradas, por lo que se pueden hacer diversas confuguraciones y acceder a diferentes menús que proporcionan información que puede modificarse. Es importante señalar que el software es compatible con diversos dispositivos de hardware, tanto genéricos como originales.
 
-Partiendo de este punto es imprescindible mencionar la gama de diversos dispositivos que se pueden incluir, dentro del desarrollo del proyecto se involucrará  a un sensor de  ultrasonido y un pantalla LCD, que sea capaz de digitar los datos obtenidos por el sensor, además, también se dispondrá de diodos led que provean una referencia de rango, que se pueda visualizar, a su vez, en el componente LCD.
+Para la descarga del software se puede ingresar a la siguiente página web:
+
+
 
 **Distribución de pines en los componentes**
 
