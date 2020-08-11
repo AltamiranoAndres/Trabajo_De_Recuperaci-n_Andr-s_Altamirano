@@ -57,6 +57,30 @@ Iniciamos el ejecutable y aceptamos los términos y condiciones, finalmente podr
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Inst_final.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Inst_final.JPG)
 
+Una vez instalado podemos distinguir que se despliega un área de trabajo
+
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Area_gral.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Area_gral.JPG)
+
+Cabe destacar que la placa que aparece ahí pertenece a la de un Arduino UNO la cual viene por defecto instalada y siempe apaecerá cuando deseemos iniciar un nuevo proyecto.
+
+
+Esta área se encuentra dividida en otras que indican información acerca de lo que utilizaremos, por ejemplo
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Vista_gral.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Vista_gral.JPG)
+
+Esta sección es un indicador panorámico que nos permitirá ver de una manera amplia el entorno de trabajo, se ubica en la esquina superior izquierda.
+
+Asimismo, tenemos una sección que nos indica las propiedades de los componentes al momento de señalarlos.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Propiedades_componentes.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Propiedades_componentes.JPG)
+
+Con ello podremos modificar diversos parámetros y cambiarles el nombre a nuestros componentes para poder organizarnos mejor.
+
+Por último, existe el menú de componentes, donde ejecutaremos la acción de arrastrar y pegar lo que necesitemos, componentes, operadores, condiciones, contadores analógicos, etc.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/menu_components.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/menu_components.JPG)
+
 
 
 **Distribución de pines en los componentes**
@@ -70,6 +94,13 @@ Primero nos enfocaremos en lo más sencillo, los diodos LED, cuyo acrónimo en i
 
 *Figura 2 Diodo led en tinkercad*
 
+Expresión del dispositivo en bloques
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led_visuino.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Diodo_led_visuino.JPG)
+
+Est dispositivo es batante sencillo, por lo que en su panel de descripción no muestra nada más que una caja para cambiar su nombre.
+
+
 **Sensor de ultrasonido HC-SR04**
 
 Por consiguiente nos enfocaremos en el sensor de ultrasonido HC-SR04. El cual puede definirse como un sensor de ultrasonido  que es usualment utilizado para mesurar distancias, cuyo funcionamiento, como su nombre lo indica, se basa en ultrasonido, mesurando distancias mediante la relación entre la frecuencia de los pulsos que emite en conjunto con la velocidad del sonido, de esta manera, puede medir distancias con bastante eficacia y a un precio .
@@ -77,22 +108,35 @@ Por consiguiente nos enfocaremos en el sensor de ultrasonido HC-SR04. El cual pu
 Para la realización del proyecto es necesario saber que se deben conocer las funciones de cada pin, así que se pueden definir de la siguiente manera:
 
 Vcc= pin de suministro de energía de 5 [V]
+
 Gnd= pin de tierra
+
 Echo= pin de recepción del ultrasonido
+
 Trig= pin de emisión del ultrasonido
 
 Existen algunas especificaciones técnicas que son important y se deben considerar.
 
 Voltaje de Operación: 5V DC
+
 Corriente de reposo: < 2mA
+
 Corriente de trabajo: 15mA
+
 Rango de medición: 2cm a 450cm
+
 Precisión: +- 3mm
+
 Ángulo de apertura: 15°
+
 Frecuencia de ultrasonido: 40KHz
+
 Duración mínima del pulso de disparo TRIG (nivel TTL): 10 μS
+
 Duración del pulso ECO de salida (nivel TTL): 100-25000 μS
+
 Dimensiones: 45mm x 20mm x 15mm
+
 Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable 50ms)
 
 *Datos técnicos tomados de: https://naylampmechatronics.com/sensores-proximidad/10-sensor-ultrasonido-hc-sr04.html*
@@ -101,6 +145,19 @@ Tiempo mínimo de espera entre una medida y el inicio de otra 20ms (recomendable
 
 
 *Figura 3 Descripción de los pines de un sensor ultrasónico, tomado de https://cdmxelectronica.com/producto/sensor-ultrasonico-hc-sr04/*
+
+Expresión del dispositivo en bloques
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Sensor_de_ultrasonido.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Sensor_de_ultrasonido.JPG)
+
+En este bloque que representa a nuestro sensor de ultrasonido, podemos apreciar los pines echo, trigger, y un pin llamado "out" que será el que dispondrá de la salida de los datos.
+
+Las propiedades de este sensor se representan de la siguiente manera:
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Sensor_de_ultrasonido_config.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Sensor_de_ultrasonido_config.JPG)
+
+Donde disponemos por lo general de tiempos que podemos manipular para hacer fluctuar la adquisición de datos ó la emisión pulsos ultrasónicos. También se puede elegir las unidades de medida en las que se desea obtener los datos, en este caso se utilizarán centímetros.
+
 
 **Pantalla LCD 16x2**
 
@@ -131,13 +188,34 @@ Pines de Bus de datos
 Son los pines que se utilizan para la transferencia de datos, siendo escnciales los pins D4 hasta el D7.
 
 
+Expresión del dispositivo en Bloques
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD.JPG)
+
+La expresión de este dispositivo es bastente intuitiva, ya que básicamente tenemos todos los pines que el mismo dispositivo físico, pero existe una ventaja, y es que podemos disponer de diferentes elementos que podemos añadir a nuestro bloque, en este caso usaremos "text fields" que son campos de texto.
+
+Podremos añadirlos mediante la pestaña de propiedades, de la cual se debe hacer una vista preliminar
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_gral.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_gral.JPG)
+
+En este caso, añadiremos dos elementos Textfield, para poder poner texto en la pantalla. Se debe recordar que la pantalla que se está usando es de 16x2 por lo que es importante hacer una revisión de las dimensions de filas y columnas que se están manejando.
+
+Cada uno es configurable, así que en el valor incial se procede a hacer la escritura del mensaje que se desee
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_el1.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_el1.JPG)
+
+En este caso cambiaremos el nombre del componente al de "Distancia" y pondremos un texto que diga lo mismo para poder verlo en la pantalla.
+
+Para el otro Textfield bastará con no modificar nada en "initial value" puesto a que se hará más adelante la explicación de cómo se imprimen los datos del sensor directamente.
+
+![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_el2.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Pantalla_LCD_config_el2.JPG)
 
 
 4.**DIAGRAMA**
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/Esquema_de_conexiones.JPG)
 
-*Figura 1 Esquema de conexiones del circuito arado en la plataforma tinkercad*
+*Figura 5 Esquema de conexiones del circuito arado en la plataforma tinkercad*
 
 5. Lista de componentes
 
@@ -147,7 +225,7 @@ Son los pines que se utilizan para la transferencia de datos, siendo escnciales 
 
 ![https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG](https://github.com/AltamiranoAndres/Trabajo_De_Recuperaci-n_Andr-s_Altamirano/blob/master/Img/LISTA_COMPONENTES.JPG)
 
-*Figura 2 Lista de componentes obtenida de tinkercad*
+*Figura 6 Lista de componentes obtenida de tinkercad*
 
 6. Mapa de Variables 
 
